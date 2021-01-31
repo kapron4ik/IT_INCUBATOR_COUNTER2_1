@@ -1,0 +1,60 @@
+body {
+  background-color: slategrey ;
+  font-weight: bold;
+}
+
+.App {
+  margin: 20px auto;
+  width: 510px;
+  display: flex;
+  /*justify-content: center;*/
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 295px;
+  border-radius: 5px;
+  border:2px solid aqua;
+}
+
+.screen {
+  color: aqua;
+  border:2px solid aqua;
+  width: 202px;
+  height: 62px;
+  /*background-color: aqua;*/
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.editMode {
+  display: none;
+}
+
+.error {
+  color: red;
+  font-size: 20px;
+}
+
+.panel {
+  width: 270px;
+  height: 60px;
+  border: 2px solid aqua;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+
